@@ -3,12 +3,39 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Quiz App</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="assets/styles.css">
     </head>
     <body>
-        <script src="" ></script>
+        <div id="container">
+      <!--   Start Selection      -->    
+            <div id="start">Start Quiz</div>
+
+      <!--   guide section        -->
+            <div id="guide">
+                <h2>Quiz Guide</h2>
+                    <h4>1. You only have 20 seconds for each question.</h4>
+                    <h4>2. Once you select your answer, you can't select another.</h4>
+                    <h4>3. You will get points on the answers you get correct.</h4>
+                    <h4>4. You can't exit from the quiz once you start. </h4>
+                    <div id="button">
+                        <button id="exit">Exit</button>
+                        <button id="continue">Continue</button>
+                    </div>
+            </div>
+        </div>
+        <!--  quiz section  -->
+        <div id="quiz">
+            <div id="quiz header">
+                <h5>The Hardest Quiz Ever</h5>
+                <div id="timer">
+                    <h6>Time Left</h6>
+                    <h6 id="time">00</h6>
+                </div>
+            </div>
+        </div>
+        <script src="assets/java.js" ></script>
     </body>
 </html>
