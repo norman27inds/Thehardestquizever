@@ -111,5 +111,39 @@ body
 }
 #quiz #quiz_header h5
 {
-  
+    font-size: 28px;
+    margin: 0 20px;
+    color: black;
+}
+#quiz #quiz_header #timer
+{
+    height: 50px;
+    width: 200px;
+    background: white;
+    color: black; 
+    border:1px solid black;
+    font-size: 18px;
+    border-radius: 20px 5px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 10px;
+}
+#quiz #quiz_header #timer h6
+{
+    font-size: 22px;
+    display: grid;
+    place-items: center;
+    color: black;
+    margin: 0 10px;
+}
+#quiz #quiz_header #timer #time
+{
+    height: 44px;
+    width: 50px;
+    background: blanchedalmond;
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px 7px;
+    margin: 2px 0 0 27px;
 }
