@@ -38,7 +38,7 @@ body
     background: rgb(255, 255, 255);
     color: rgb(8, 8, 8);
 }
-#guide,#quiz
+#guide #quiz
 {
     height: auto;
     width: 580;
@@ -111,7 +111,7 @@ body
 }
 #quiz #quiz_header h5
 {
-    font-size: 28px;
+    font-size: 80px;
     margin: 0 20px;
     color: black;
 }
@@ -161,4 +161,38 @@ body
 #quiz #question h2:first-child
 {
     margin: 0 10px 0 5px;
+}
+#quiz #optionList
+{
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    top: 160px;
+}
+#quiz #optionList h4
+{
+    height: 50px;
+    width: 535px;
+    background: #fafafc;
+    line-height: 50px;
+    margin: 5px 0;
+    border-radius: 7px;
+    padding: 0 20px;
+    font-size: 20px;
+    color: #000;
+    overflow: hidden;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#quiz #optionList h4:hover
+{
+    background: blanchedalmond;
+}
+#quiz #optionList .active
+{
+    background: blanchedalmond;
+}
+#quiz #optionList .disabled
+{
+    pointer-events: none;
 }
