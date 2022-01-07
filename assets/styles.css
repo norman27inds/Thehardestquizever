@@ -92,7 +92,7 @@ body
 }
 #quiz
 {
-    display: block;
+   /* display: block; */
     height: 480;
     position: relative;
 }
@@ -212,7 +212,7 @@ body
 #quiz #answersSection h3
 {
     margin: 0px 30px;
-/*  display: none;*/    
+    display: none;    
 }
 #quiz #answersSection h3:last-child
 {
@@ -237,4 +237,62 @@ body
 #quiz #answersSection h3:first-child:hover
 {
     background: none;
+}
+#container  #result
+{
+    height: 500px;
+    width: 450; 
+    padding: 20px;
+    background: blanchedalmond;
+    border-radius: 30px 10px;
+    border: 1px solid black;
+    overflow: hidden;
+    position: relative;
+    display: none;
+}
+#container  #result i
+{
+    font-size: 180px;
+    color: black;
+    position: absolute;
+    top: 30px;
+    left: 120px;
+}
+#container  #result h6
+{
+    height: 40px;
+    width: 87%;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+    top: 235px;
+}
+#container  #result #points
+{
+    font-size: 30px;
+    top: 275px;
+}
+#container #result button
+{
+    height: 60px;
+    width: 260px;
+    border: none;
+    outline: none;
+    background: #fafafc;
+    color: black;
+    position: absolute;
+    left: 125px;
+    top: 335px;
+    border: 1px solid black;
+    border-radius: 20px 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+#container #result button:last-child
+{
+    top: 405px;
+}
+#container #result button:hover
+{
+    background: blanchedalmond;
 }
