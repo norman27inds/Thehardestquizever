@@ -329,14 +329,3 @@ function scoreRender() {
   scoreDiv.innerHTML = "<img src=" + img + ">";
   scoreDiv.innerHTML += "<p>" + scorePerCent + "%</p>";
 }
-
-//////////////////////////////////////////////////////
-var myVar;
-
-function myLoader() {
-  myVar = setTimeout(showPage, 20000);
-}
-
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-}
